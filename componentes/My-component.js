@@ -1,7 +1,9 @@
 export default{
     data(){
         return{
-            mensaje: "Hola zzz"
+            basico: "Apolo",
+            intermedio: "Artemis",
+            avanzado: "Stutnik"
         }
     }
 }
