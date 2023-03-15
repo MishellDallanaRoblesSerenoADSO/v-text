@@ -13,20 +13,7 @@
     <!-- Directivas de bucle -->
     
     <div id="app">
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Dato</th>
-                </tr>
-            </thead>
-            <tbody v-for="(val,id) in lista" :key="id">
-                <tr>
-                    <td v-text="id"></td>
-                    <td v-text="val"></td>
-                </tr>
-            </tbody>
-        </table>
+        <img  v-bind:src="imagen" alt="texto">
     </div>
 
 </body>
