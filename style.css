@@ -1,8 +1,5 @@
-.error{
-    background-color: brown;
-    color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: .5rem;
-    margin-top: 20px;
-    border-radius: .3em;
+th, td{
+    border: .1em solid #ff069f;
+    text-align: center;
+    background-color: #ffb7e3a6;
 }
