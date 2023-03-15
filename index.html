@@ -13,14 +13,12 @@
     <!-- Directivas condicionales -->
     
     <div id="app">
-        <label>Zona Franja: <strong>Campus</strong></label> 
-        <div> <br>
-            <input type="radio" v-model="centinela" v-bind:value="true"> Ver
-            <input type="radio" v-model="centinela" v-bind:value="false"> Ocultar 
-        </div>
-        <div v-show="centinela" class="info">Los mejores programadores de colombia </div>
+        <input type="text" v-model="opcion">
+        <div v-if="opcion=='Apolo'" v-html="mensaje"></div>
+        <div v-else-if="opcion=='Artemis'" v-html="mensaje2"></div>
+        <div v-else-if="opcion=='Stutnik'" v-html="mensaje3"></div>
+        <div v-else v-html="mensaje4" class="error"></div>
     </div>
-
 
 </body>
 </html>
