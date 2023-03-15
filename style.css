@@ -1,5 +1,16 @@
-th, td{
-    border: .1em solid #ff069f;
-    text-align: center;
-    background-color: #ffb7e3a6;
+.box{
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding: 1em;
+    border-radius: .5rem 0;
+}
+.box2{
+    background-color: rgb(75, 255, 240);
+    color: #000;
+}
+.box3{
+    background-color: rgb(255, 93, 220);
+    color: #fff;
 }
