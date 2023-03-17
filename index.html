@@ -13,9 +13,9 @@
     <!-- Directivas avanzadas -->
     
     <div id="app">
-        <div :style="styleName"> Apolo</div>
-        <div :style="styleName2"> Artemis</div>
-        <div :style="styleName3"> Sputnik</div>
+        <button v-on:click="showMessage">Click </button>
+        <button @click="showMessage">Click </button>
+        <button @[event]="showMessage">Click </button>
     </div>
 
 </body>
